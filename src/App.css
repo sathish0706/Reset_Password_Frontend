@@ -1,0 +1,30 @@
+.signin-container {
+  width: 500px;
+  margin-left: 35vw;
+  margin-top: 22vh;
+}
+.form-group > input {
+  width: 350px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.btn-primary {
+  display: inline-block;
+  background-color: #077222;
+  padding: 10px;
+  width: 80px;
+  color: #000802;
+  border: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 350px;
+}
+.heading {
+  margin-left: 80px;
+  font-size: 25px;
+  color: crimson;
+}
+.btn-primary:active {
+  background-color: #012c0c;
+}
