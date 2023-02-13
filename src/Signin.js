@@ -21,7 +21,7 @@ const Signin = () => {
         { withCredentials: true }
       );
       if (response) {
-        navigate("/");
+        navigate("/home");
       }
     } catch (error) {
       console.log("Error: ", error);
