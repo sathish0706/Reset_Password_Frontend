@@ -25,7 +25,7 @@ const Register = () => {
         { withCredentials: true }
       );
       if (response) {
-        navigate("/signin");
+        navigate("/");
         console.log(response);
       }
     } catch (error) {
@@ -79,7 +79,7 @@ const Register = () => {
           Register
         </button>
         <br />
-        <Link to={"/signin"}>Already have an account</Link>
+        <Link to={"/"}>Already have an account</Link>
       </form>
     </div>
   );
