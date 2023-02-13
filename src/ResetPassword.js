@@ -26,7 +26,7 @@ const ResetPassword = () => {
         { withCredentials: true }
       );
       if (response) {
-        navigate("/signin");
+        navigate("/");
       }
     } catch (error) {
       console.log("Error: ", error);
